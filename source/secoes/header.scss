@@ -1,0 +1,16 @@
+@use '../config/cores';
+@use '../config/variables';
+
+header {
+    background-color: cores.$primary-color;
+    position: sticky;
+    top: 0;
+    left: 0;
+
+.container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: variables.$container-padding 0;
+}
+}

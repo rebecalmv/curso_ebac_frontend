@@ -1,0 +1,12 @@
+@use 'config/variables';
+@use 'config/cores';
+@use 'config/reset';
+@use 'secoes/header';
+@use 'secoes/menu';
+@use 'secoes/section';
+@use 'secoes/products';
+@use 'config/media-queries';
+
+body {
+    background-color: cores.$background-color;
+}
